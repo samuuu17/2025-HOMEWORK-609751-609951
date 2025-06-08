@@ -26,12 +26,6 @@ public class ComandoPosaTest {
 	@Before
 	public void setUp() throws Exception {
 		 labirinto = Labirinto.newBuilder("labirinto3.txt").getLabirinto();
-//				new LabirintoBuilder()
-//				.addStanzaIniziale("Atrio")
-//				.addAttrezzo("seghetto", 3)
-//				.addStanzaVincente("Biblioteca")
-//				.addAdiacenza("Atrio", "Biblioteca", "nord")
-//				.getLabirinto();
 		partita = new Partita(labirinto);
 		attrezzo = new Attrezzo("martello", 2);
 		comando = new ComandoPosa();

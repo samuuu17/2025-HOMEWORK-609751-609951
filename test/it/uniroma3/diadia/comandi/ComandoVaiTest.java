@@ -42,13 +42,6 @@ public class ComandoVaiTest {
 		s2 = new Stanza("aula 2");
 		vai = new ComandoVai();
 		 labirinto = Labirinto.newBuilder("labirinto2.txt").getLabirinto();
-
-//				 Labirinto.newBuilder()
-//				.addStanzaIniziale("Atrio")
-//				.addAttrezzo("martello", 3)
-//				.addStanzaVincente("Biblioteca")
-//				.addAdiacenza("Atrio", "Biblioteca", "nord")
-//				.getLabirinto();
 		p = new Partita(labirinto);
 		vai.setIo(io);
 		righeDaLeggere = new ArrayList<>();

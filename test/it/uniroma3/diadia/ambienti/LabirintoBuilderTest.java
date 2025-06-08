@@ -17,7 +17,7 @@ public class LabirintoBuilderTest {
 
 	@Before
 	public void setUp() throws Exception {
-		//lb = Labirinto.newBuilder("labirinto.txt");
+		
 		lb = new LabirintoBuilder("labirinto.txt");
 	} 
 
@@ -41,9 +41,7 @@ public class LabirintoBuilderTest {
 
 	@Test
 	public void testAddAttrezzoSenzaUltimaStanzaAggiunta(){
-		
-		//lb.addAttrezzo("cacciavite", 3);
-		//Attrezzo expected = new Attrezzo("cacciavite", 3);
+	
 		assertEquals(LabirintoBuilder.class, lb.addAttrezzo("cacciavite", 3).getClass());
 	}
 	

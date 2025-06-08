@@ -16,12 +16,6 @@ public class LabirintoTest {
 	@Before
 	public void setUp() throws FileNotFoundException, FormatoFileNonValidoException {
 		 l = Labirinto.newBuilder("labirinto2.txt").getLabirinto();
-//				Labirinto.newBuilder()
-//				.addStanzaIniziale("Atrio")
-//				.addAttrezzo("martello", 3)
-//				.addStanzaVincente("Biblioteca")
-//				.addAdiacenza("Atrio", "Biblioteca", "nord")
-//				.getLabirinto();
 		
 		biblioteca = new Stanza("Biblioteca");
 		DS1 = new Stanza("DS1");
